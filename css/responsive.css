@@ -1,0 +1,126 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    header{
+         display:grid;
+        padding:5px 10px;
+        grid-template-columns:30% 70%
+    }
+    .logo img {
+        padding-left: 10px;
+        width: 85px; 
+     }
+    
+    .navs{
+        display: none;
+    }
+    
+    .overlay{
+        display: block;
+    }
+    
+    .ptext .border {
+   
+      font-size: 17px;
+    }
+    
+    footer{
+    width:100%;
+    display: grid;
+    grid-auto-columns: 100%;
+
+    }
+    .footer-inner {
+        background: #ddd;
+        padding: 4px 10px;
+    }
+    form .right {
+        width: 80%;
+        /* float: left; */
+        text-align: center;
+        padding-left: 5px;
+        position: relative;
+        margin-left: 17px;
+       }
+        form .left {
+        text-align: center;
+        margin-left: 96px;
+     }
+    
+    
+    
+    
+  }
+
+    
+  
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .navs a {
+       padding: 9px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        transition: 1s;
+    }
+    
+    header{
+    background:#ddd;
+    display:grid;
+    padding: 10px; 20px;
+    grid-template-columns:55% 45%
+}
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+
+
+
